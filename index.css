@@ -1,0 +1,30 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightgrey;
+}
+h1{
+    font-style: oblique;
+}
+
+input.container{
+    border-radius: 2px;
+}
+.form{
+    padding: 15vw;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px solid yellow;
+}  
+
+.flex-child:first-child {
+    margin-left: 120px;
+
+} 
