@@ -1,30 +1,114 @@
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: lightgrey;
+    padding: 30px;
+    margin: auto;
+
 }
 h1{
-    font-style: oblique;
+    font-style:inherit;
+}
+h5{
+    color: gray;
 }
 
-input.container{
-    border-radius: 2px;
+.container{
+    border-radius: 4px;
+    width: 100%;
+    border-color: rgb(101, 98, 98,0.2);
+    height: 25px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
-.form{
-    padding: 15vw;
-    background-color: white;
-    border-radius: 5px;
-}
-
 .flex-container {
     display: flex;
+    height: 100%;
+    border-radius: 5px;
+
+}
+.button{
+
+    width: 100%;
+    border-radius: 4px;
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 35px;
+    border-color: rgb(101, 98, 98,0.2);
+}
+.form1{
+    flex:1;
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.form{
+
+    background-color: white;
+    border-radius: 5px;
+    font-size:12px;
+    
+}
+.figure{
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 5px;
+    position:relative;
 }
 
-.flex-child {
-    flex: 1;
-    border: 2px solid yellow;
-}  
+.button1{
+    background-color: black;
+    color: white;
+    width: 100%;
+    border-radius: 4px;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 
-.flex-child:first-child {
-    margin-left: 120px;
+    height: 35px;
+}
 
-} 
+
+.image{
+
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+.text{
+    
+    position: absolute;
+    bottom: 0vw;
+    margin:15px;
+    left:0;
+    padding: 20px;
+    color:white;
+    background-color: rgba(185, 182, 182, 0.5);
+    
+}
+  
+
+.check{
+    font-size: 2px;
+}
+.butt{
+    padding: auto;
+    position: relative;
+    bottom: 0vw;
+    text-align: right;
+    
+}
+.butt3{
+    border-radius: 100%;
+    background-color: rgba(185, 182, 182, 0.5);
+    color:white;
+    border-color: rgb(255, 255, 255,0.5);
+    width: 50px;
+    height: 50px;
+}
+
+
