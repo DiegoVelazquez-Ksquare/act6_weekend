@@ -159,6 +159,7 @@ body{
 .flex-rem{
     font-weight: bold;
     display: flex;
+    align-items: baseline;
 }
 .flex-rem div{
      flex: 1;
